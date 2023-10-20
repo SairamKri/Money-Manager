@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.display-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .display-dashboard-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.your-balance-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  background-color: #ecfccb;
+  border-radius: 16px;
+  border: 1px solid hsl(84, 81%, 44%);
+  margin-bottom: 16px;
+  margin-right: 20px;
+  width: 90%;
+}
+
+.your-income-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  background-color: #cffafe;
+  border-radius: 16px;
+  border: 1px solid #06b6d4;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.your-expenses-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  background-color: #ede9fe;
+  border-radius: 16px;
+  border: 1px solid #7c3aed;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  width: 90%;
+}
+
+.dash-board-image {
+  width: 40px;
+  height: 40px;
+}
